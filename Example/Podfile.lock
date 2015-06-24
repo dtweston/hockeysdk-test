@@ -1,0 +1,17 @@
+PODS:
+  - HockeySDK (3.6.4)
+  - hockeysdk-test (0.1.0):
+    - HockeySDK (= 3.6.4)
+
+DEPENDENCIES:
+  - hockeysdk-test (from `../`)
+
+EXTERNAL SOURCES:
+  hockeysdk-test:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HockeySDK: c07cdd580296737edcd0963e292c19885a53f563
+  hockeysdk-test: 57c5f63eb6891b40583e21fb4d8dbb8084c98974
+
+COCOAPODS: 0.37.2
