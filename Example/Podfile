@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'hockeysdk-test_Example', :exclusive => true do
+  pod "hockeysdk-test", :path => "../"
+end
+
+target 'hockeysdk-test_Tests', :exclusive => true do
+  pod "hockeysdk-test", :path => "../"
+
+  
+end
